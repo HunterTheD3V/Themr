@@ -1,0 +1,1 @@
+console.log('Solarium engine background script loaded');

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themr</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div id="popup-container">
+      <!-- Settings Button (Replaces Language Switch) -->
+      <div id="settings-button" title="Settings">
+        <img src="./Themr_main_assets/images/appIcons/settings-icon.png" alt="Settings Icon" id="settings-icon">
+      </div>
+
+      <!-- Banner -->
+      <div id="themr-banner">
+        <img src="./Themr_main_assets/images/ThemrBanner.png" alt="Themr Banner">
+      </div>
+
+      <!-- Installed Themes List -->
+      <div id="installed-themes">
+        <h3 id="installed-themes-title">Installed Themes</h3>
+        <div id="installed-list" class="themes-scroll">
+          <!-- Will be populated dynamically -->
+        </div>
+        <p id="no-installed-themes" class="hidden">Currently, there are no themes installed.</p>
+      </div>
+
+      <!-- Identified Themes for Current Website -->
+      <div id="identified-themes">
+        <h3 id="identified-themes-title">Identified Themes for This Website</h3>
+        <div id="identified-list" class="themes-scroll">
+          <!-- Will be populated dynamically -->
+        </div>
+        <p id="no-identified-themes" class="hidden">Currently, no theme matches the current website.</p>
+      </div>
+
+      <!-- Manage Themes Button -->
+      <div id="manage-themes">
+        <button id="manage-themes-btn">Manage Themes</button>
+      </div>
+    </div>
+
+    <!-- Full-Screen Settings Menu -->
+    <div id="settings-menu" class="hidden">
+      <button id="close-settings">✖</button>
+      <h2>Settings</h2>
+      <div id="settings-options">
+        <button id="toggle-language">Change Language</button>
+        <button id="toggle-theme">Change theme mode for your extension</button>
+        <a href="https://discord.gg/YOUR-SERVER" target="_blank" id="discord-link">💬 Join Discord Support</a>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

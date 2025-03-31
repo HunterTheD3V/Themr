@@ -9,7 +9,7 @@
 data will be converted to browser cookies
 this data, however is for schema.json string data
 all schemas and datas are string-based object contents
-the application of new overrides inside data may not work if you don't redeclare in manifest
+the application of new overrides inside data may not work if you don't do a new declare in manifest
 */
 
 // QUOTE END

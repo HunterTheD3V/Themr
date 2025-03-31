@@ -1,0 +1,41 @@
+{
+	"name": "Solar Themr",
+	"description": "A browser extension that allows users to customize website appearances using custom themes.",
+	"short_name": "Themr",
+	"version": "3.0.0-rw",
+	"manifest_version": 3,
+
+	"icons": {
+		"48": "./Themr_main_assets/Files/Themr_main_assets/images/ThemrIcons/ThemrLogo_48p.jpg",
+		"128": "./Themr_main_assets/Files/Themr_main_assets/images/ThemrIcons/ThemrLogo_128p.jpg",
+		"256": "./Themr_main_assets/Files/Themr_main_assets/images/ThemrIcons/ThemrLogo_256p.jpg",
+		"512": "./Themr_main_assets/Files/Themr_main_assets/images/ThemrIcons/ThemrLogo_512p.jpg"
+	},
+	"oldIcons": {
+		"48": "./Themr_main_assets/images/HytescordIcon_48b.png",
+		"128": "./Themr_main_assets/images/HytescordIcon_128b.png"
+	},
+
+	"permissions": [
+		"storage",
+		"activeTab",
+		"scripting"
+	],
+	"host_permissions": [
+		"<all_urls>"
+	],
+
+	"offline_enabled": true,
+	"action": {
+		"default_popup": "./Themr_main_assets/Files/index.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	
+	"author": "HyTera Development",
+	"contributors": [
+    "HyTera Development",
+    "SunFlare Network"
+]
+}
