@@ -1,98 +1,120 @@
 <p align="center">
-    <img width="628" src="Hytescord_superblack/superblack_assets/images/hytescord_themr.png">
-  </a>
+  <img width="256" src="Solarium_engine/Themr_main_assets/Files/Themr_main_assets/images/ThemrLogo.jpg">
 </p>
-
-<h1 align="center">HyTera THEMR</h1>
+<h1 align="center">Themr</h1>
+<h3 align="center">The most powerful web extension made for customizing your web pages with style.</h3>
+<hr>
 
 <div align="center">
-
-**The best web browser extension made to allow the power of customization in your own hands!**
-
-The replacement of the old HyTesCord SUPERBLACK project.
-
-[![HyTera Development Server][hytera-development-server]][hytera-development-server-url]
-[![THEMR website][themr-website]][themr-website-url]
-
-[hytera-development-server]: https://img.shields.io/discord/773352845738115102?color=5865F2&logo=discord&logoColor=white
-[hytera-development-server-url]: https://discord.gg/GZQrhyjfXe
-[themr-website]: https://img.shields.io/badge/THEMR-website-green
-[themr-website-url]: https://themr.hdevelopment.tk/
-    
+  <p>
+    <img width="1300" src="Solarium_engine/Themr_main_assets/Files/Themr_main_assets/images/ThemrIcons/ThemrBanner_1300p.png">
+  </p>
+  <hr>
+  This project has been redesigned by SunFlare Network for Chromium and Gecko web engines.<br>
+  Support for Solarium coming soon.
 </div>
+<hr>
+<div align="center">
 
-# Table of Contents
-1. - **[Features](#features)**
-2. - **[Installation](#installation)**
-3. - **[Setup](#setup)**
-4. - **[Links](#links)**
-5. - **[Contributtions](#collab)**
-
-## Features <a name = "features">
-
-  - Enables customization in a bunch of sites 
-  - Community can make themes and publish them 
-  - Customizable themes, where you can make your own themes 
-  - Easy to use, simple controls 
-
-## Installation <a name = "installation">
-
-In order to install THEMR in your browser, you'll need to follow this guide: 
+## 📑 Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Setup](#setup)
+- [Links](#links)
+- [Contributions](#contributions)
 
 
-Step 1 : Download the repository as ZIP 
 
-Step 2 : Once downloaded, unzip it
+## 🚀 Features <a name="features"></a>
+- Customize your web pages with style  
+- Create and publish your own themes  
+- Access a full theme store directly from the extension  
+- Clean and simple UI  
 
-Step 3 : On your browser, go to extensions and enable Developer mode. then, click "Load unpacked"
 
-Step 4 : Load THEMR files you downloaded, under the "Hytescord_superblack" folder        
+<hr>
 
-## Setup <a name = "setup">
+## 💾 Installation <a name="installation"></a>
 
-### First steps
+To install Themr officially, visit the [Themr Website](https://themr.hdevelopment.tk/) and choose your browser engine.  
+If the download buttons aren't working or you want a preview / beta / canary / snapshot version, follow the steps below:
 
-first, download all required [Dependencies](#dependencies)
 
-then, clone the repository using
+**1. Go to Releases**  
+Click the *Releases* tab on the right panel of the repository and download the latest stable version.  
+Alternatively, click **Code > Download ZIP** to get the preview build.
+
+
+**2. Unzip the Downloaded File**  
+Extract the contents of the ZIP file.
+
+
+**3. Enable Developer Mode**  
+Go to your browser's **Extensions** page and enable **Developer Mode** (usually via the settings or extensions icon).
+
+
+**4. Load the Extension**  
+Click **"Load Unpacked"**, then navigate to the unzipped folder.  
+Load the `Themr_main_assets` folder under the `Solarium_engine` directory.
+
+
+**✅ Done!**  
+Themr is now installed. If you face any issues, retry the steps or contact support on [Discord](https://discord.gg/GZQrhyjfXe).
+
+<hr>
+
+## 🛠️ Setup <a name="setup"></a>
+
+### Development Setup
+
+To start developing, first install the [Dependencies](#dependencies),  
+then clone the repository, pasting 
+
 ```bash
-gh repo clone NickHunterD3V/HytesCord-Themr
+gh repo clone HunterTheD3V/Themr
 ```
-in your console/terminal
 
-### Dependencies <a name = "dependencies">
-  
-Themr uses: 
- - Node.JS v18.x
- - NPM v7.20.x
- - JsDelivr CDN
+### 📦 Dependencies <a name="dependencies"></a>
 
-NPM packages used by themr:
- - express.js
- - socket.io
+**Frameworks required by Themr:**
+- Node.js v23.x *(legacy support: v19.8.1)*
+- NPM v10.9.x *(legacy support: v7.43.x)*
+- JsDelivr CDN
+- Axios v1.9.0
 
-Languages used on themr:
- - JavaScript
- - HTML5 
- - CSS 
- - TypeScript
- - PHP
- - PYTHON
-    
-## Links <a name = "links">
-- [Website](https://themr.hdevelopment.tk/index.html)
-- [Github](https://github.com/NickHunterD3V/HytesCord-Themr)
-- [Discord Server](https://discord.gg/GZQrhyjfXe)
+**NPM packages used:**
+- express
+- socket.io
 
-## Contributtions <a name = "collab">
+**Languages used:**
+- JavaScript
+- HTML5
+- CSS
+- PHP
 
-the project is made by [Hunter](https://github.com/NickHunterD3V/) from [HyTera Development](https://discord.gg/GZQrhyjfXe)
+<hr>
 
-Contributtors:
-- [Hunter (as owner)](https://github.com/NickHunterD3V)
-- [Paebukoa](https://github.com/Paebukoa)
-- [Select](https://github.com/SelectDev)
+## 🔗 Links <a name="links"></a>
+- 🌐 [Website](https://themr.hdevelopment.tk/index.html)
+- 💻 [GitHub](https://github.com/NickHunterD3V/HytesCord-Themr)
+- 🎮 [Discord Server](https://discord.gg/GZQrhyjfXe)
 
-###### Made by HyTera Development ©
+<hr>
 
+## 🤝 Contributions <a name="contributions"></a>
 
+Project by [HunterCr4ft](https://github.com/HunterTheD3V) from **SunFlare Technologies**  
+Originally developed by **HyTera Development**, now maintained by **SunFlare DV**, a subsidiary of **SunFlare Network**
+
+**Wanna contribute?** Open a Pull Request!  
+⚠️ To contribute, you must be an active verified member of our [Community Discord Server](https://discord.gg/GZQrhyjfXe).
+
+<hr>
+
+### 🧠 Made by SunFlare Technologies ©
+
+Open-source project maintained by **SunFlare DV** & **SunFlare Network**.  
+Originally started by **HyTera Development** (now SunFlare DV).  
+
+All branding and image rights reserved.  
+For licensing info, check the `LICENSE` file.
